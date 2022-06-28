@@ -55,9 +55,6 @@
 //    }
 //}
 
-
-
-
 // Final Exercise w/ stretch
 bool doorLocked = true;
 int code = 13579;
