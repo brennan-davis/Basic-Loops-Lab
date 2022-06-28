@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLoops", "BasicLoops.csproj", "{DDDC61BD-2EB0-4AB1-91EA-5025C08D1FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLoops-DoorUnlockLab", "..\BasicLoops-DoorUnlockLab\BasicLoops-DoorUnlockLab.csproj", "{26C15834-76F2-46E1-9408-F799684F3ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDDC61BD-2EB0-4AB1-91EA-5025C08D1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDC61BD-2EB0-4AB1-91EA-5025C08D1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDC61BD-2EB0-4AB1-91EA-5025C08D1FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDC61BD-2EB0-4AB1-91EA-5025C08D1FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C15834-76F2-46E1-9408-F799684F3ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C15834-76F2-46E1-9408-F799684F3ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C15834-76F2-46E1-9408-F799684F3ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C15834-76F2-46E1-9408-F799684F3ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6437D224-B5B0-4EF3-B968-09B447B4A355}
+	EndGlobalSection
+EndGlobal
