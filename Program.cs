@@ -68,7 +68,7 @@ while (doorLocked && attempts < 5)
         codeIsInt = int.TryParse(Console.ReadLine(), out codeInput);
     }
 
-    doorLocked = !IsUnlocked(code, codeInput);
+    doorLocked = !(codeInput == code);
     attempts++;
 
     if (!doorLocked && attempts <= 5)
@@ -83,9 +83,4 @@ while (doorLocked && attempts < 5)
     {
         Console.WriteLine($"Wrong Passcode! Try Again. You have {5 - attempts} attempts remaining.\n");
     }
-}
-
-static bool IsUnlocked(int code, int codeInput)
-{
-    return (codeInput == code);
 }
