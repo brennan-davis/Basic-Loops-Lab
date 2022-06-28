@@ -71,7 +71,7 @@ while (doorLocked && attempts < 5)
     doorLocked = !(codeInput == code);
     attempts++;
 
-    if (!doorLocked && attempts <= 5)
+    if (!doorLocked && attempts < 5)
     {
         Console.WriteLine($"Congrats! You got the correct pin of {code} in {attempts} attempts!");
     }
